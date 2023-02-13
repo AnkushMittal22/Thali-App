@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+ 
+.aboutThali{
+     background-color: aliceblue;
+   height: 100vh;
+   width: 98.8vw;
+}

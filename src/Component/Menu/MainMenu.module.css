@@ -1,0 +1,61 @@
+.main_menu{
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 0 0 0;
+}
+
+.mid_menu{
+    width: 90%;
+    max-width: 10rem;
+    text-align: center;
+}
+.main_menu img{
+    border-radius: 40%;
+    width: 15rem;
+}
+
+.main_menu h1{
+    color: white;
+    margin-top: 1rem;
+    animation: title 3s infinite;
+}
+
+.main_menu h3{
+    color: white;
+    margin: 1rem 0 1rem 0;
+    text-align: center;    
+}
+.main_menu section{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+    
+}
+
+.mid_change button{
+    background-color: rgba(0, 128, 0, 0.667);
+    color: white;
+    font-weight: bold;
+    
+}
+
+.action button{
+padding: 0.7rem 1.5rem;
+color: white;
+font-weight: bold;
+background-color: rgba(102, 51, 153, 0.7);
+border-radius: 1rem;
+}
+
+@keyframes title {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }   
+   20% { transform: rotate(30.0deg) }
+   30% { transform: rotate(40.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60%{
+    background-color: red;
+   }
+  100% { transform: rotate( 0.0deg) }
+}

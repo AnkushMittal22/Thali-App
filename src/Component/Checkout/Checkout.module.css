@@ -1,0 +1,27 @@
+ .checkout {
+    max-width: 30rem;
+    background-color: #313131;
+    color: white;
+    margin: 2rem auto;
+  }
+
+  .checkout ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+ 
+
+.chekFirst footer button{
+    float: right;
+    margin-right: 25rem;
+     padding: 1rem;
+     font-weight: bold;
+     border-radius: 2rem;
+}
+
+.chekFirst footer button:hover{
+    background-color: red;
+}
+

@@ -1,0 +1,79 @@
+.home{
+    background-image: url("https://c.neevacdn.net/image/fetch/s--aAECmUHI--/https%3A//www.wallpaperup.com/uploads/wallpapers/2013/08/05/128034/594d83e9a51863f7c87ec827e9a0b376.jpg?savepath=594d83e9a51863f7c87ec827e9a0b376.jpg");
+    height: 91.5vh;   
+}
+
+.home header{
+    display: flex;
+    justify-content: center;
+    margin: 0 1.5rem 0 0;
+    color:yellow;
+    font-style: italic;
+    font-size: larger;
+    letter-spacing: 10px;    
+}
+
+.home aside{
+    text-align: center;
+    margin:4rem 3rem 0 0
+}
+
+.home aside button{
+padding: 2rem;
+border-radius: 2rem;
+font-weight: bold;
+font-size: large;
+animation: order 3s infinite;
+color:  black;
+}
+
+.home section{
+    display: flex;
+    justify-content: center;
+    margin: 12rem 2rem 0 0;
+    color: rgb(255,192,0);
+    font-weight: bold;
+    font-size: large;
+    letter-spacing: 1re;
+    animation: myhead 4s infinite;
+}
+ 
+.home footer{
+    display: flex;
+    justify-content:center;
+    color:yellow;
+    margin: 0 1.5rem 0 0;
+
+     
+}
+
+@keyframes order {
+    0.00% { background-color: red;    }
+   16.67% { background-color: orange; }
+   33.33% { background-color: yellow; }
+   50.00% { background-color: green;  }
+   66.67% { background-color: blue;   }
+   83.33% { background-color: indigo; }
+  100.00% { background-color: violet; }
+}
+
+@keyframes myhead{
+    0%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    60%{
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        /* width: 50%; */
+        text-align: center;
+        max-width: 8rem;
+        margin: 0 auto;
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+}

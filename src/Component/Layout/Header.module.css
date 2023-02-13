@@ -1,0 +1,36 @@
+.header_main{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(51,53,69);
+     
+}
+
+.header_main h1{
+color: white;
+opacity: 100px;
+letter-spacing: 1rem;
+font-style: italic;
+
+}
+.header_main h1 span{
+    color: red;
+}
+
+.header_main ul{
+    display: flex;
+}
+.header_main ul li{
+    list-style-type: none;
+    margin: 1rem 5rem 1rem 5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+
+}
+ .header_main ul li a{
+    color: rgb(255,255,255);
+    text-decoration: none;
+    
+}
+
+ 

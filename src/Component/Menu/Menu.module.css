@@ -1,0 +1,45 @@
+.menu{
+  background-image: url("../../../public/Image/backMenu2.png");
+  background-repeat: no-repeat;
+  background-size:96rem 139rem ;
+
+}
+.menu_head h1 span{
+   
+    animation-name: wave-animation;  
+  animation-duration: 2.5s;        
+  animation-iteration-count: infinite;   
+  transform-origin: 70% 70%;       
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }   
+   20% { transform: rotate(30.0deg) }
+   30% { transform: rotate(40.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate(360deg) }   
+  100% { transform: rotate( 0.0deg) }
+}
+
+.menu_head nav{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(165, 42, 42, 0.44);
+}
+
+.menu_head h1{
+  color: white;
+  margin: 0 0 0 28rem;
+  padding: 1rem;
+}
+
+.menu_head button{
+  margin: 1.5rem 0 0 0;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  font-size: large;
+}
+
